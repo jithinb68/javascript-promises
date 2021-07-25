@@ -5,8 +5,7 @@ const port = process.env.PORT || 3000
 
 var courses = [
     'javascript',
-    'php',
-    'python'
+    'php'
 ]
 
 app.get('/', (request, response) => {
